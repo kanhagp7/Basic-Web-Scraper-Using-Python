@@ -42,4 +42,4 @@ for tag in h2_tags:
 
 df = pd.DataFrame(data, columns=["Movie Name", "Release Year", "Tomato Meter Score"])
 
-df.to_excel('data.csv', index = False)
+df.to_excel('data.xlsx', index = False)
